@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth & Dare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div id="authen-area" class="authentication">
+        <h2 class="heading"> Welcome to Our Own Truth & Dare Site</h2>
+        <h5 class="consent">Wanna Play Right Now?</h5>
+        <div class="button d-flex justify-content-center">
+            <button id="wow" class="agree d-flex justify-content-center">WOW! Why Not?</button>
+        </div>
+        
+    </div>
+    <div id="select-area" class="select">
+        <img class="rounded mx-auto d-block love" src="images/love.gif" alt="">
+        <h4 class="heading-2">Love you honey</h4>
+        <br>
+        <h4 class="heading-3">lets choose your option, Truth or Dare</h5>
+            <div class="button d-flex justify-content-center">
+                <button style="margin:5px;" id="truth-button" class="truth"> vodro girl's don't tell a lie </button>
+                <button style="margin:5px;" id="dare-button" class="dare"> I'm not frightened </button>
+            </div>
+    </div>
+    <div class="trutharea">
+
+    </div>
+    <div class="darearea">
+
+    </div>
+
+    
+    <script>
+        // wow button handler
+        const wowBtn = document.getElementById("wow");
+        wowBtn.addEventListener("click", function(){
+            const authnArea = document.getElementById("authen-area");
+            authnArea.style.display = "none";
+            const selectArea = document.getElementById("select-area");
+            selectArea.style.display = "block";
+        })
+        // truth button handler
+
+        const truthBtn = document.getElementById("truth-button");
+        truthBtn.addEventListener("click", function(){
+            const selectionArea = document.getElementById("select-area");
+            selectionArea.style.display = "none";
+            const truthArea = document.getElementById("truth-area");
+            selectArea.style.display = "block";
+        })
+
+        // dare button handler
+
+        const dareBtn = document.getElementById("dare-button");
+        dareBtn.addEventListener("click", function(){
+            const selectionArea = document.getElementById("select-area");
+            selectionArea.style.display = "none";
+            const darehArea = document.getElementById("dare-area");
+            selectArea.style.display = "block";
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.body{
+    background-color: black;
+    margin-top: 2em;
+}
+.heading{
+    font-size: 120px;
+    font-style: oblique;
+    color: orange;
+    text-align: center;
+    margin-bottom: 0em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.heading-2{
+    font-size: 120px;
+    font-style: oblique;
+    color: orange;
+    text-align: center;
+    margin-bottom: 0em;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0em;
+}
+.heading-3{
+    font-size: 70px;
+    font-style: oblique;
+    color: red;
+    text-align: center;
+    margin-bottom: 0em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.consent{
+    text-align: center;
+    color: red;
+    font-size: 80px;
+    font-style: oblique;
+    margin-top: 10px;
+}
+.button{
+    margin-top: 5em;
+}
+.agree{
+    background-image: linear-gradient(to bottom, #f33d4c 0%, red 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    height: 3em;
+    font-weight: bold;
+}
+
+.select{
+    display: none;
+}
+
+.love{
+    margin-bottom: 0em;
+    height: 200px;
+    width: 160;
+}
+
+.truth{
+    background-image: linear-gradient(to bottom, #3af080 0%, green 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.dare{
+    background-image: linear-gradient(to bottom, #f33d4c 0%, red 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.trutharea{
+    display: none;
+}
+.darearea{
+    display: none;
+}
